@@ -3,3 +3,4 @@ RUN echo 'copying...'
 COPY test.txt /usr/local
 RUN echo 'done'
 RUN ls /usr/local
+RUN which mvn
